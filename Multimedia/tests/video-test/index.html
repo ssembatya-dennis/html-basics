@@ -18,5 +18,16 @@
                 and listen to media supported by your browser
             </p>
         </audio>
+        <h2>A slightly more complex video player</h2>
+        <video controls width="320px" height="240px" muted>
+            <source src="media/mp4_video.mp4" type="video/mp4">
+            <source src="media/webm_video.webm" type="video/webm">
+            <source src="media/mpeg_video.mpeg" type="video/mpeg">
+            <track kind="subtitles" src="subtitles_es.vtt" srclang="es" label="German">
+            <p>Your browser doesn't support Html5 video element. 
+                However <a href="http://www.example.com">link to the video</a>
+                and see the media supported by your browser.
+            </p> 
+        </video>
     </body>
 </html>
